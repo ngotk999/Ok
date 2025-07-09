@@ -1,2 +1,9 @@
+pyTelegramBotAPI==4.7.1
 python-telegram-bot
 requests
+beautifulsoup4
+psutil
+gTTS
+qrcode
+flask
+filetype
