@@ -1,3 +1,18 @@
+# Phần giữ web server "sống" để Render không kill bot
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return 'Bot is running!'
+
+def run_flask():
+    app.run(host='0.0.0.0', port=10000)
+
+# Chạy Flask song song với bot
+threading.Thread(target=run_flask).start()
 #vip
 from fileinput import filename
 import telebot
