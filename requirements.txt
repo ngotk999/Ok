@@ -1,9 +1,2 @@
 pyTelegramBotAPI
-requests
-gTTS
-qrcode
-Pillow
-bs4
 Flask
-psutil
-openai
