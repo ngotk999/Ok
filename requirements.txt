@@ -1,9 +1,9 @@
-pyTelegramBotAPI==4.7.1
-python-telegram-bot
+pyTelegramBotAPI
 requests
-beautifulsoup4
-psutil
 gTTS
 qrcode
-flask
-filetype
+Pillow
+bs4
+Flask
+psutil
+openai
