@@ -1,6 +1,6 @@
 services:
-  - type: worker
-    name: telegram-bot
+  - type: web
+    name: SPAM-CALL-VIP
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
