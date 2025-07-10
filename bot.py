@@ -59,7 +59,7 @@ GPT_API_URL = "https://api.sumiproject.net/gpt4?q={query}"
 allowed_group_ids = [ -1002403107765]  # Must have '-' before chat ID
 openai_api_key = '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'
 # Bot Token
-bot = telebot.TeleBot("7953417537:AAFCyNO6Nj_0VeyE3virc5et7mOdM_bCZj4")  # Token bot
+bot = telebot.TeleBot("7797658812:AAH_tyChkSFoZIfeCP-BB5naqRpprsqKUfw")  # Token bot
 API_TOKEN = 'cặc'  # Thay thế bằng token thật của bạn cho dịch vụ API
 # Initialization Message
 print("ngotk999 đã được khởi động thành công")
