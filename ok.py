@@ -731,8 +731,9 @@ async def handle_fb(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except Exception as e:
         await update.message.reply_text(f"Đã có lỗi xảy ra: {str(e)}")
         
-
-async def reject_other_groups(update: Update, context: ContextTypes.DEFAULT_TYPE): if update.effective_chat.id != allowed_group_id: await update.message.reply_text("Bot chỉ hoạt động trong nhóm này: https://t.me/Spamsmstracuuttvip")
+async def reject_other_groups(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if update.effective_chat.id != allowed_group_id:
+        await update.message.reply_text("Bot chỉ hoạt động trong nhóm này: https://t.me/Spamsmstracuuttvip")
 
 async def paused_react(update: Update, context: ContextTypes.DEFAULT_TYPE): if not bot_active: return
 
