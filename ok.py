@@ -455,13 +455,16 @@ async def handle_tt(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if len(context.args) < 1:
             await update.message.reply_text("Vui lòng cung cấp username TikTok sau lệnh /tt.")
             return
-        # các dòng khác...
+
+        unique_id = context.args[0]
+        waiting = await update.message.reply_text("⌛️")
+
+        # Các dòng xử lý tiếp theo...
+        # response = requests.get(...)
+        # await update.message.reply_text("Kết quả...")
 
     except Exception as e:
         await update.message.reply_text(f"Đã xảy ra lỗi: {e}")
-
-unique_id = context.args[0]
-    waiting = await update.message.reply_text("⌛️")
 
     res = requests.get(f"https://azig.dev/tiktok?info={unique_id}")
     data = res.json()
