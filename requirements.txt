@@ -3,3 +3,4 @@ pyTelegramBotAPI==4.15.4
 requests
 deep-translator
 Flask
+beautifulsoup4
