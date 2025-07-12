@@ -9,7 +9,7 @@ Log setup
 logging.basicConfig( format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO ) logger = logging.getLogger(name)
 
 ADMIN_ID = 6043728545
-TOKEN = "7953417537:AAFCyNO6Nj_0VeyE3virc5et7mOdM_bCZj4" allowed_group_id = -1002403107765
+TOKEN = "7993764210:AAGnM45yo0rRwqHoRh7pN5W-C10NdJ-b8QI" allowed_group_id = -1002403107765
 
 async def spamvip_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Kiểm tra nếu tin nhắn được gửi từ nhóm hợp lệ
